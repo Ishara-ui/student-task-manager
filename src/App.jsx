@@ -25,7 +25,7 @@ function App() {
   const [taskTitle, setTaskTitle] = useState("")
 
 
-  // Calculate task counts
+ 
 
   const totalTasks = tasks.length
 
@@ -36,7 +36,7 @@ function App() {
   const pendingTasks = totalTasks - completedTasks
 
 
-  // Add new task
+
 
   const addTask = () => {
 
@@ -56,7 +56,7 @@ function App() {
   }
 
 
-  // Complete task
+  
 
   const completeTask = (id) => {
 
@@ -76,7 +76,7 @@ function App() {
   }
 
 
-  // Delete task
+
 
   const deleteTask = (id) => {
 
@@ -98,7 +98,7 @@ function App() {
       </p>
 
 
-      {/* Dashboard */}
+   
 
       <div className="dashboard">
 
@@ -120,7 +120,7 @@ function App() {
       </div>
 
 
-      {/* Add Task */}
+    
 
       <div className="add-task">
 
@@ -140,7 +140,7 @@ function App() {
       </div>
 
 
-      {/* Task List */}
+    
 
       <div className="task-list">
 
